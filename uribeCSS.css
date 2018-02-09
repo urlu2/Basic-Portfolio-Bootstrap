@@ -1,0 +1,186 @@
+body {
+    background-image: url(./assets/background.jpg);
+}
+
+hr {
+    margin-top: 0;
+    border: 0;
+    width: 100%; 
+    background-color: lightgray;
+    height: 2px;
+  }
+.container-fluid {
+    background-color: white;
+    border-bottom: 1px solid gray;
+}
+
+.navbar-nav > li {
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+.navbar-brand {
+    height: 90px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: white !important;
+    background-color: #4AAAA5;
+    float: left;
+    padding-top: 30px;
+    margin-left: 100px !important;
+    margin-right: 500px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.containerf {
+    margin-right: -140px;
+}
+.jumbotron {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    max-width: 595px;
+    padding: 0 auto;
+    padding-left: 1px;
+    position: relative;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+.jumbotron > img {
+    flex-grow:0;
+    flex-shrink:0;
+    margin-right: 20px;
+    float: left;
+    position: relative;
+}
+
+.jumbotron > h3 {
+    color: #4AAAA5;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: -10px;
+}
+.jumbotron > p {
+    color: grey;
+    font-size: 18px;
+    position: relative;
+}
+
+.gallery {
+    width: 234px;
+    height: 179px;
+}
+
+.gdescription {
+    background-color:#4AAAA5;
+    width: 233px;
+    height: 40px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 17px;
+    padding-top: 5px;
+    position: relative;
+    margin-top: -55px;
+    z-index: 30;
+}
+
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666666;
+}
+
+input[type=submit] {
+    background-color: #4AAAA5;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    float: left;
+}
+
+.col-25 {
+    float: left;
+    width: 300px;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+.panel {
+    border: 1px solid gray;
+    color:#4AAAA5;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+    max-width: 290px;
+    max-height: 200px;
+    position: relative;
+    margin-left: 30px;
+    padding: 20px 30px;
+}
+
+.panel-body {
+    padding-top: 0;
+    text-align: center;
+}
+.img-responsive {
+    border: 1px solid grey;
+    margin: 5px;
+    float: left;
+    position: relative;
+}
+
+.footer {
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 35px;
+    width: 100%;
+    height: 95px;
+    border-top: 8px solid #4AAAA5;
+    background-color: #666666;
+    float: bottom;
+    position: fixed;
+    bottom: 0px;
+    z-index: 99;
+}
